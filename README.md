@@ -26,7 +26,7 @@ A comprehensive, real-world application designed to simulate the development of 
 
 | Entity   | Fields (important)                         | Intereact with | Interaction               |
 | -------- | ------------------------------------------ | -------------- | ------------------------- |
-| User     | name, email, password, role                | Property       | Can own or book one       |
+| User     | name, email, password, role                | Property       | Can own/book one          |
 | property | location, availability, price, description | User           | Can be pocessed/booked by |
 | Booking  | start_date, end_date, status, price        | User           | booked by                 |
 | Payment  | amount, date, time, status, medium, type   | User           | paid by                   |
@@ -46,3 +46,9 @@ The Backend API will be properly secured
 
 - **How:** authentication, authorization, rate limiting & Throttling, encryption, Input Validation & Sanitization, Logging & Monitoring
 - **Why:** Data Protection, securing payments, Prevent Abuse, Compliance Requirements, Maintain Service Availability
+
+## CI/CD Pipeline
+
+- CI/CD stands for **_Continuous Integration_** and **_Continuous Deployment (or Delivery)_**. The _Continuous Integration_ deal whith automating the process of testing and adding changes (commits) to the main code base. The _Continuous Delivery_ deal whith automating the process of testing and bringing the updated main code base into production.
+- A **_CI/CD pipeline_** automates this process, from code commit to testing to deployment. It Fasters Development, fosters higher quality of code, reduces manual errors and ensures consistency across environments. It also provides rapid feedback and simplifies the hassles of scalability.
+- **Commonly used tools:** GitHub Actions, GitLab CI/CD, Jenkins, Docker, Kubernetes, Terraform.
