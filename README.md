@@ -31,3 +31,11 @@ A comprehensive, real-world application designed to simulate the development of 
 | Booking  | start_date, end_date, status, price        | User           | booked by                 |
 | Payment  | amount, date, time, status, medium, type   | User           | paid by                   |
 | review   | rate, date, time, comment                  | User, Property | reviewer, reviewed        |
+
+## Feature Breakdown
+
+- **User Authentication:** Register new users, authenticate, and manage user profiles.
+- **Property Management:** Create, update, retrieve, and delete property listings.
+- **Booking System:** Make, update, and manage bookings, including check-in and check-out details.
+- **Payment Processing:** Handle payment transactions related to bookings.
+- **Review System:** Post and manage reviews for properties.
