@@ -21,3 +21,13 @@ A comprehensive, real-world application designed to simulate the development of 
 - **Redis:** Used for caching and session management.
 - **Docker:** Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+
+## Database Design
+
+| Entity   | Fields (important)                         | Intereact with | Interaction               |
+| -------- | ------------------------------------------ | -------------- | ------------------------- |
+| User     | name, email, password, role                | Property       | Can own or book one       |
+| property | location, availability, price, description | User           | Can be pocessed/booked by |
+| Booking  | start_date, end_date, status, price        | User           | booked by                 |
+| Payment  | amount, date, time, status, medium, type   | User           | paid by                   |
+| review   | rate, date, time, comment                  | User, Property | reviewer, reviewed        |
