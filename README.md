@@ -39,3 +39,10 @@ A comprehensive, real-world application designed to simulate the development of 
 - **Booking System:** Make, update, and manage bookings, including check-in and check-out details.
 - **Payment Processing:** Handle payment transactions related to bookings.
 - **Review System:** Post and manage reviews for properties.
+
+## API Security
+
+The Backend API will be properly secured
+
+- **How:** authentication, authorization, rate limiting & Throttling, encryption, Input Validation & Sanitization, Logging & Monitoring
+- **Why:** Data Protection, securing payments, Prevent Abuse, Compliance Requirements, Maintain Service Availability
